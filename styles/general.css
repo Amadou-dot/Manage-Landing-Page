@@ -1,0 +1,19 @@
+html {
+  font-size: 65.5%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 145rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
