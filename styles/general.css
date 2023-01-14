@@ -1,19 +1,91 @@
 html {
   font-size: 65.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: static;
+  list-style: none;
+  text-decoration: none;
+  --color-dark-blue: #242d52;
+  --color-orange: #f25f3a;
+  --color-very-dark-blue: #1d1e25;
+  --color-dark-grayish-blue: #9095a7;
+}
 body {
   font-family: "Be Vietnam Pro", sans-serif;
-  width: 145rem;
-  overflow: hidden;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.container-1300 {
+  width: 130rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.margin-r--s {
+  margin-right: 1.4rem;
+}
+
+.margin-b-s {
+  margin-bottom: 1.4rem;
+}
+
+.margin-b-m {
+  margin-bottom: 3.2rem;
+}
+
+.margin-b--lg {
+  margin-bottom: 9.6rem;
+}
+
+.heading--primary,
+.heading--secondary,
+.heading--tertiary {
+  font-size: 4.8rem;
+  color: var(--color-very-dark-blue);
+}
+
+.heading--secondary {
+  font-size: 3.2rem;
+}
+
+.heading--tertiary {
+  font-size: 2.4rem;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1.4rem;
+  transition: background-color color 0.3s;
+}
+
+.btn--cta {
+  background-color: var(--color-orange);
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+}
+.btn--cta--invert {
+  color: var(--color-orange);
+  background-color: #fff;
+}
+
+.btn--cta:hover {
+  background-color: #df4c27;
+}
+
+.btn--cta--invert:hover {
+  color: rgba(226, 110, 81, 0.85);
+  background-color: #fff;
+}
+
+.description {
+  font-size: 1.6rem;
+  color: var(--color-dark-grayish-blue);
 }
