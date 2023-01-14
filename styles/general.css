@@ -2,6 +2,7 @@ html {
   font-size: 65.5%;
   overflow-x: hidden;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -14,9 +15,10 @@ html {
   --color-very-dark-blue: #1d1e25;
   --color-dark-grayish-blue: #9095a7;
 }
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
-  margin: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +41,7 @@ body {
 }
 
 .margin-b--lg {
-  margin-bottom: 9.6rem;
+  margin-bottom: 13rem;
 }
 
 .heading--primary,

@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
 
     <link
       rel="icon"
@@ -50,9 +51,27 @@
         </ul>
         <button class="btn btn--cta">Get Started</button>
       </div>
+
+      <div class="nav__mobile">
+        <img src="images/logo.svg" alt="Manage Logo" />
+        <button class="btn mobile--menu-btn" id="menu-btn" name="Menu button">
+          <img src="images/icon-hamburger.svg" alt="" />
+        </button>
+        <button class="btn mobile--close-btn" id="close-btn" name="Menu button">
+          <img src="images/icon-close.svg" alt="" />
+        </button>
+
+        <ul class="mobile__menu-list">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
     </nav>
 
-    <header class="hero container-1300" role="heading">
+    <section class="hero container-1300" role="heading">
       <div class="hero__text-container">
         <h1 class="heading--primary margin-b-s">
           Bring everyone together to build better products.
@@ -67,7 +86,7 @@
       <div class="hero__img-container">
         <img src="images/illustration-intro.svg" alt="" />
       </div>
-    </header>
+    </section>
 
     <section class="features container-1300 margin-b--lg">
       <div class="features__header-container">
@@ -161,14 +180,18 @@
             talk to!”
           </blockquote>
         </div>
+        <div class="testimonials__nav">
+          <div class="testimonials__mobile-nav" role="navigation"></div>
+          <div class="testimonials__mobile-nav active" role="navigation"></div>
+          <div class="testimonials__mobile-nav" role="navigation"></div>
+          <div class="testimonials__mobile-nav" role="navigation"></div>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="footer__banner">
-        <h3 class="heading--tertiary">
-          Simplify how your team works today. Get Started
-        </h3>
+        <h3 class="heading--tertiary">Simplify how your team works today.</h3>
         <button class="btn btn--cta btn--cta--invert">Get Started</button>
       </div>
 
@@ -223,11 +246,12 @@
               class="email margin-r--s"
               placeholder="Updates in your inbox…"
             />
-            <button type="submit" class="btn btn--cta">Get Started</button>
+            <button type="submit" class="btn btn--cta">Go</button>
           </div>
           <p class="copyright">Copyright 2020. All Rights Reserved</p>
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

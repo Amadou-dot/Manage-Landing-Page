@@ -5,6 +5,12 @@
   margin-top: 3.2rem;
 }
 
+.nav__mobile,
+.mobile__menu-list,
+.mobile--close-btn {
+  display: none;
+}
+
 .nav__desktop {
   display: flex;
   justify-content: space-between;
@@ -36,7 +42,6 @@
 
 .hero__text-container {
   width: 45rem;
-  align-self: center;
 }
 .hero__text-container > .description,
 .features__header-container > .description {
@@ -71,6 +76,7 @@
 }
 
 .feature__title {
+  width: max-content;
   color: var(--color-dark-blue);
   font-size: 1.8rem;
   font-weight: 500;
@@ -84,6 +90,9 @@
 /* ****************** */
 /*  TESTIMONIALS SECTION */
 /* ****************** */
+.testimonials__nav {
+  display: none;
+}
 .testimonials__container {
   display: flex;
   justify-content: space-between;
@@ -183,7 +192,7 @@
 .email {
   font-family: inherit;
   padding: 1.4rem;
-  width: 50%;
+  width: 60%;
   border-radius: 100px;
 }
 
