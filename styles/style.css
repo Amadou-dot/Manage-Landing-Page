@@ -9,6 +9,7 @@
 .mobile__menu-list,
 .mobile--close-btn {
   display: none;
+  visibility: hidden;
 }
 
 .nav__desktop {
@@ -92,6 +93,7 @@
 /* ****************** */
 .testimonials__nav {
   display: none;
+  visibility: hidden;
 }
 .testimonials__container {
   display: flex;

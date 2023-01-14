@@ -102,6 +102,7 @@
 
   .testimonials__nav {
     display: flex;
+    visibility: visible;
     gap: 1.2rem;
     position: absolute;
     bottom: 0;
@@ -130,6 +131,7 @@
     font-size: 2rem;
   }
   .nav__desktop {
+    visibility: hidden;
     display: none;
   }
 
@@ -137,9 +139,11 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    visibility: visible;
   }
 
   .nav__mobile.open .mobile__menu-list {
+    visibility: visible;
     width: 100%;
     position: absolute;
     display: flex;
@@ -154,9 +158,11 @@
     box-shadow: 0 3.4px 10px rgba(0, 0, 0, 0.25);
   }
   .nav__mobile.open .mobile--menu-btn {
+    visibility: inherit;
     display: none;
   }
   .nav__mobile.open .mobile--close-btn {
+    visibility: inherit;
     display: block;
   }
   .mobile__menu-list li a:link,

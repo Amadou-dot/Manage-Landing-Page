@@ -24,7 +24,11 @@
   </head>
   <body>
     <nav class="nav margin-b--lg">
-      <div role="navigation" class="nav__desktop container-1300">
+      <div
+        role="navigation"
+        aria-label="Desktop navigation bar"
+        class="nav__desktop container-1300"
+      >
         <a href="#" class="logo">
           <img src="images/logo.svg" alt="Manage logo" />
         </a>
@@ -71,7 +75,11 @@
       </div>
     </nav>
 
-    <section class="hero container-1300" role="heading">
+    <section
+      class="hero container-1300"
+      role="heading"
+      aria-label="Hero section"
+    >
       <div class="hero__text-container">
         <h1 class="heading--primary margin-b-s">
           Bring everyone together to build better products.
@@ -181,10 +189,26 @@
           </blockquote>
         </div>
         <div class="testimonials__nav">
-          <div class="testimonials__mobile-nav" role="navigation"></div>
-          <div class="testimonials__mobile-nav active" role="navigation"></div>
-          <div class="testimonials__mobile-nav" role="navigation"></div>
-          <div class="testimonials__mobile-nav" role="navigation"></div>
+          <div
+            class="testimonials__mobile-nav"
+            role="navigation"
+            aria-label="Navigation control for testimonials"
+          ></div>
+          <div
+            class="testimonials__mobile-nav active"
+            role="navigation"
+            aria-label="Navigation control for testimonials"
+          ></div>
+          <div
+            class="testimonials__mobile-nav"
+            role="navigation"
+            aria-label="Navigation control for testimonials"
+          ></div>
+          <div
+            class="testimonials__mobile-nav"
+            role="navigation"
+            aria-label="Navigation control for testimonials"
+          ></div>
         </div>
       </div>
     </section>
@@ -200,19 +224,29 @@
           <img src="images/logo-white.svg" alt="Manage logo" />
           <ul class="company__socials">
             <li class="margin-r--s">
-              <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+              <a href="#" name="Facebook link"
+                ><img src="images/icon-facebook.svg" alt="Facebook icon"
+              /></a>
             </li>
             <li class="margin-r--s">
-              <a href="#"><img src="images/icon-youtube.svg" alt="" /></a>
+              <a href="#" name="Youtube link"
+                ><img src="images/icon-youtube.svg" alt="Youtube icon"
+              /></a>
             </li>
             <li class="margin-r--s">
-              <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+              <a href="#" name="Twitter link"
+                ><img src="images/icon-twitter.svg" alt="Twitter icon"
+              /></a>
             </li>
             <li class="margin-r--s">
-              <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+              <a href="#" name="Pinterest link"
+                ><img src="images/icon-pinterest.svg" alt="Pinterest icon"
+              /></a>
             </li>
             <li>
-              <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+              <a href="#" name="Instagram link"
+                ><img src="images/icon-instagram.svg" alt="Instagram icon"
+              /></a>
             </li>
           </ul>
         </div>
