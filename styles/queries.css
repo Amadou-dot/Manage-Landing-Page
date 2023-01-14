@@ -122,8 +122,12 @@
 }
 
 @media (max-width: 49.375em) {
+  /* Phone */
   html {
     font-size: 50%;
+  }
+  .btn {
+    font-size: 2rem;
   }
   .nav__desktop {
     display: none;
